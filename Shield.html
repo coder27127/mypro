@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         *{
+            margin: 0px;
+            padding: 0px;
+            font-family: sans-serif;
+        }
+        .banner{
+            background-image: linear-gradient(rgba(0, 0, 0, 0.425),rgba(0, 0, 0, 0.425)),url("OIP.jpg");
+            background-repeat: no-repeat; 
+            background-size: cover;
+            height: 800px;
+        }.logo{
+            height: 100px;
+            width: 120px;
+            cursor: pointer;
+        }
+        .navbar ul li{
+            list-style-type: none;
+            display: inline-block;
+            margin : 0 20px;
+            color: white; 
+            position: relative;
+        }
+        .navbar ul li::after{
+            content: '';
+            height: 3px;
+            width: 0;
+            background: #00ffe5;
+            position: absolute;
+            left: 0;
+            bottom: -10px;
+            transition: 0.5s ease;
+        }
+        .navbar ul li:hover::after{
+            width: 100%; 
+        }
+        a{
+            text-decoration: none;
+            color: white;   
+            text-transform: uppercase;
+        }
+        .navbar{
+            width: 85%;
+            margin: auto;
+            padding: 35px 0;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+    </style>
+    
+</head>
+<body>
+    <div class="banner">
+        <div class="navbar">
+            <img src="R.png" alt="" class="logo">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">modes</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </div>
+        <div class="content">
+            <h1>Hyper Game web Shield</h1>
+            butt
+        </div>
+    </div>
+</body>
+</html>
